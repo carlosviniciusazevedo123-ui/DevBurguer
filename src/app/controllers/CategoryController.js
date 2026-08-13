@@ -31,6 +31,7 @@ class CategoryController {
       path: filename,
     });
     return response.status(200).json(newCategory);
+  
   }
 
   async update(request, response) {
